@@ -20,12 +20,11 @@ import java.util.HashSet;
 import static com.example.s36.gdin01.variable.Event.PWROff;
 import static com.example.s36.gdin01.variable.Event.PWROn;
 
-
 /**
  * Created by kir on 11.06.2016.
  */
 
-public class GDin extends BroadcastReceiver implements VariableCollection {
+public class GDin implements VariableCollection {
 
     private State gdinState;
     private Context context;
@@ -134,10 +133,4 @@ public class GDin extends BroadcastReceiver implements VariableCollection {
 
 
     }
-    @Override
-    public void onReceive(Context context, Intent intent) {
-
-    }
-
-
 }
