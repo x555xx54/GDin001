@@ -98,7 +98,6 @@ public class GDin implements VariableCollection {
                 // Log.d(LOG_TAG_SERVICE, "GDinService - onStartCommand -PWROff " + count);
                 break;
             case PWROff:
-
                 break;
         }
     }
