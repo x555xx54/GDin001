@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">GDin01</string>
+    <array name="list_security_mode_entries">
+        <item>Тревога при вкл питания</item>
+        <item>Тревога при откл питания</item>
+        <item>Использование кодированного сигнала</item>
+
+    </array>
+    <array name="list_security_mode_entryValue">
+        <item>simpleOn</item>
+        <item>simpleOff</item>
+        <item>codesignal</item>
+
+    </array>
+</resources>

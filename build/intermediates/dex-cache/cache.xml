@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\kir\Documents\GitHub\GDin01\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="C:\Users\kir\Documents\GitHub\GDin01\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.4.0_0d3feae9522a87b1e7234b1852ba17fa26b058f4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kir\Documents\GitHub\GDin01\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="C:\Users\kir\Documents\GitHub\GDin01\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.4.0_23c5015d613f6e55025bbe8d7f27ab3e3dbd69ec\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kir\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="C:\Users\kir\Documents\GitHub\GDin01\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.4.0_ea73ed8b872df6e7caf88b62f36f0f0ccde2f34b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kir\Documents\GitHub\GDin01\app\build\intermediates\exploded-aar\com.android.support.constraint\constraint-layout\1.0.0-alpha2\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="757a34f5d84a6b77a2bd0ba1affbcd2145329096">
+        <dex dex="C:\Users\kir\Documents\GitHub\GDin01\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support.constraint-constraint-layout-1.0.0-alpha2_4a2a7597c11bb6c4d48ea440845e745e0bbe85ea\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kir\Documents\GitHub\GDin01\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="C:\Users\kir\Documents\GitHub\GDin01\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.4.0_c3cbcba7ff68ab6135c2633ca21ebf43d9085e44\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\android-studio\gradle\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.0-alpha2\constraint-layout-solver-1.0.0-alpha2.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="d5b32a2a1529a72472729ee5c94779d0ce9951eb">
+        <dex dex="C:\Users\kir\Documents\GitHub\GDin01\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.0-alpha2_57c78e02bafeb71644764ce1155466fce3a7ea9a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kir\Documents\GitHub\GDin01\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="C:\Users\kir\Documents\GitHub\GDin01\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.4.0_c703e5a186934613442ce7e778a64ea33a283153\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kir\Documents\GitHub\GDin01\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="c0a4cec9ab16cade76c855b97c383a1cdf8ea011">
+        <dex dex="C:\Users\kir\Documents\GitHub\GDin01\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_ac117ac311e3164fc8f542a76d0e2ed875788818\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kir\Documents\GitHub\GDin01\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="0b742f962984d24e82eb0e9f0ae4bcf8b99b5f4c">
+        <dex dex="C:\Users\kir\Documents\GitHub\GDin01\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_d4aa2512c0c31e5b65b271f6469493df7a41ddc6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kir\Documents\GitHub\GDin01\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="C:\Users\kir\Documents\GitHub\GDin01\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.4.0_7458beadacdf0bfb4b5945030f5baf3e59dfc310\classes.dex" />
+    </item>
+
+</items>
