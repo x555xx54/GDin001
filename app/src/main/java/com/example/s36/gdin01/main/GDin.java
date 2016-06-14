@@ -1,35 +1,37 @@
 package com.example.s36.gdin01.main;
 
-    import android.content.Context;
-    import android.content.Intent;
-    import android.content.SharedPreferences;
-    import android.os.Bundle;
-    import android.os.Handler;
-    import android.os.Message;
-    import android.preference.PreferenceManager;
-    import android.util.Log;
+import android.content.Context;
+import android.content.Intent;
+import android.content.SharedPreferences;
+import android.os.Bundle;
+import android.os.Handler;
+import android.os.Message;
+import android.preference.PreferenceManager;
+import android.util.Log;
 
-    import com.example.s36.gdin01.variable.Event;
-    import com.example.s36.gdin01.variable.State;
-    import com.example.s36.gdin01.variable.VariableCollection;
+import com.example.s36.gdin01.variable.Event;
+import com.example.s36.gdin01.variable.State;
+import com.example.s36.gdin01.variable.VariableCollection;
 
-    import java.util.ArrayList;
-    import java.util.Date;
-    import java.util.HashSet;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.HashSet;
 
-    import static com.example.s36.gdin01.variable.Event.PWROff;
-    import static com.example.s36.gdin01.variable.Event.PWROn;
+import static com.example.s36.gdin01.variable.Event.PWROff;
+import static com.example.s36.gdin01.variable.Event.PWROn;
 
-    /**
-     * Created by kir on 11.06.2016.
-     */
+/**
+ * Created by kir on 11.06.2016.
+ */
 
 public class GDin implements VariableCollection {
 
     private State gdinState;
     private Context context;
     private ArrayList<String> ownerList;
-    private boolean enableSms;
+
+    boolean isEnableSms;
+
 
     Long tpmLongStart = 0l;
     Long tpmLongStop = 0l;
@@ -43,7 +45,7 @@ public class GDin implements VariableCollection {
     public GDin(Context context) {
         this.context = context;
         ownerList = new ArrayList<>();
-        enableSms = false;
+        isEnableSms = false;
     }
 
     public void setGdinState(State gdinState) {
@@ -61,7 +63,8 @@ public class GDin implements VariableCollection {
         Event event = (Event) bundle.get(CONST_EVENT);
         if (event == PWROn) {
 
-            handler.removeMessages(0); Log.d(LOG_TAG_SERVICE, "handler.removeMessages(0);");
+            handler.removeMessages(0);
+            Log.d(LOG_TAG_SERVICE, "handler.removeMessages(0);");
 
             tpmLongStart = tpmLongStart2;
             tpmLongStart2 = new Date().getTime();
@@ -69,16 +72,17 @@ public class GDin implements VariableCollection {
         if (event == PWROff) {
 
 
-              handler  =new Handler(){
+            handler = new Handler() {
                 @Override
                 public void handleMessage(Message msg) {
-                   Log.d(LOG_TAG_SERVICE, "handler Alarm" + msg.what);
+                    Log.d(LOG_TAG_SERVICE, "handler Alarm" + msg.what);
                 }
             };
             Thread t = new Thread(new Runnable() {
                 @Override
                 public void run() {
-                    handler.sendEmptyMessageDelayed(0,1500); Log.d(LOG_TAG_SERVICE, "handler.sendEmptyMessageDelayed(0,1500);");
+                    handler.sendEmptyMessageDelayed(0, 1500);
+                    Log.d(LOG_TAG_SERVICE, "handler.sendEmptyMessageDelayed(0,1500);");
                 }
             });
             t.start();
@@ -125,7 +129,7 @@ public class GDin implements VariableCollection {
 
         SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(context);
 
-        enableSms = preferences.getBoolean("chbPrefSmsEnable", false);
+        isEnableSms= preferences.getBoolean("chbPrefSmsEnable", false);
 
         for (int i = 0; i < 10; i++) {
             String owner = preferences.getString("phone" + i, "");
@@ -147,7 +151,6 @@ public class GDin implements VariableCollection {
     public void actionProcess(Intent intent) {
         Bundle bundle = intent.getExtras();
         Event event = (Event) bundle.get(CONST_EVENT);
-        
 
 
     }
