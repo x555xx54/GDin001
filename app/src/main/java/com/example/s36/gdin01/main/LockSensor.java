@@ -14,14 +14,19 @@ import static com.example.s36.gdin01.variable.VariableCollection.CONST_EVENT;
 
 public class LockSensor extends Sensor {
 
-    SensorState sensorStateLock;
-    String nameSensor;
-    boolean isNormalOpen;// if pwrOn then lock closed, if pwrOff then lock open //замыкающий при закрытии замка
+    private SensorState sensorStateLock;
+    private String nameSensor;
+    private boolean isNormalOpen;// if pwrOn then lock closed, if pwrOff then lock open //замыкающий при закрытии замка
 
     public LockSensor(boolean isNormalOpen, SensorState sensorStateLock, String nameSensor) {
         this.sensorStateLock = sensorStateLock;
         this.nameSensor = nameSensor;
         this.isNormalOpen = isNormalOpen;
+
+    }
+
+    @Override
+    void updateSetting() {
 
     }
 
@@ -48,7 +53,6 @@ public class LockSensor extends Sensor {
 
     @Override
     SensorState getState() {
-
         return sensorStateLock;
     }
 }

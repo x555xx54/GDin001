@@ -11,29 +11,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06815918-d6d9-46ee-8c3b-46c33a94f844" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/main/LockSensor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/main/Sensor.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/variable/Category.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/variable/GDinCategory.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/variable/Event.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/variable/GDinEvent.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/variable/Origin.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/variable/GDinOrigin.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/variable/State.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/variable/SensorState.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/main/GDin.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/main/GDin.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/main/GDinService.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/main/GDinService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/main/SettingActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/main/SettingActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/receivers/PwrReceiver.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/receivers/PwrReceiver.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/receivers/SmsReceiver.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/receivers/SmsReceiver.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/receivers/UniversalReceiver.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/receivers/UniversalReceiver.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/main/LockSensor.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/main/LockSensor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/main/Sensor.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/main/Sensor.java" />
     </list>
     <list id="63f0112c-f479-4b31-8006-c617b4157494" name="New changelist" comment="" />
     <list id="155ec5e7-920f-488c-8b51-5d8b6c63c1c8" name="New changelist2" comment="" />
@@ -84,8 +65,8 @@
       <file leaf-file-name="Sensor.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/main/Sensor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state relative-caret-position="272">
+              <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -93,23 +74,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GDinService.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GDinService.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/main/GDinService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="31" column="58" selection-start-line="31" selection-start-column="58" selection-end-line="31" selection-end-column="58" />
-              <folding />
+            <state relative-caret-position="255">
+              <caret line="31" column="42" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
+              <folding>
+                <element signature="e#704#705#0" expanded="true" />
+                <element signature="e#733#734#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LockSensor.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LockSensor.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/main/LockSensor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+            <state relative-caret-position="534">
+              <caret line="54" column="28" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1339#1340#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -1750,15 +1735,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/main/GDinService.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/variable/State.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/variable/GDinEvent.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/variable/Category.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/variable/GDinCategory.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/main/Sensor.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/main/GDin.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/main/LockSensor.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/main/SettingActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/main/Sensor.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/main/LockSensor.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/main/GDinService.java" />
       </list>
     </option>
   </component>
@@ -2239,7 +2224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1465890016315</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="14-06 18:49 SettingActivity add ScreeLock">
+      <created>1465908605787</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1465908605787</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2255,7 +2247,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.58528787" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2196162" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2196162" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942432" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942432" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -2328,7 +2320,8 @@
     <MESSAGE value="14-06 15:00" />
     <MESSAGE value="14-06 15:00 test isEnableSms 2" />
     <MESSAGE value="14-06 15:00 test isEnableSms" />
-    <option name="LAST_COMMIT_MESSAGE" value="14-06 15:00 test isEnableSms" />
+    <MESSAGE value="14-06 18:49 SettingActivity add ScreeLock" />
+    <option name="LAST_COMMIT_MESSAGE" value="14-06 18:49 SettingActivity add ScreeLock" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -2359,7 +2352,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="31" column="58" selection-start-line="31" selection-start-column="58" selection-end-line="31" selection-end-column="58" />
-          <folding />
+          <folding>
+            <element signature="e#704#705#0" expanded="true" />
+            <element signature="e#733#734#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2369,6 +2365,7 @@
           <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1339#1340#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2411,7 +2408,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="31" column="46" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
-          <folding />
+          <folding>
+            <element signature="e#704#705#0" expanded="true" />
+            <element signature="e#733#734#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2467,24 +2467,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/main/GDinService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="31" column="58" selection-start-line="31" selection-start-column="58" selection-end-line="31" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/main/Sensor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/main/SettingActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="757">
@@ -2493,12 +2475,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/main/LockSensor.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/main/Sensor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state relative-caret-position="272">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/main/LockSensor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="534">
+          <caret line="54" column="28" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1339#1340#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/main/GDinService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="31" column="42" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
+          <folding>
+            <element signature="e#704#705#0" expanded="true" />
+            <element signature="e#733#734#0" expanded="true" />
           </folding>
         </state>
       </provider>

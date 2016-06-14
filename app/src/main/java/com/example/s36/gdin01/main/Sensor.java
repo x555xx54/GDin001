@@ -14,6 +14,8 @@ public abstract class Sensor {
 
     void updateState(Intent intent) {
     }
+    void updateSetting(){
+    }
 
     SensorState getState() {
         return SensorState.Open;

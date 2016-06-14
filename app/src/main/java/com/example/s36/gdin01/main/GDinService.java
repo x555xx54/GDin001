@@ -2,12 +2,14 @@ package com.example.s36.gdin01.main;
 
 import android.app.Service;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.os.IBinder;
 import android.support.annotation.Nullable;
 import android.util.Log;
 
 import com.example.s36.gdin01.variable.GDinEvent;
+import com.example.s36.gdin01.variable.SensorState;
 import com.example.s36.gdin01.variable.VariableCollection;
 
 /**
@@ -18,6 +20,17 @@ public class GDinService extends Service implements VariableCollection {
     int count = 0;
 
     GDin gDin = new GDin(this);
+    LockSensor lockSensorTop = new LockSensor(, SensorState.Open, "");
+
+    @Override
+    public void onCreate() {
+        readSetting();
+    }
+
+    void readSetting() {
+
+        SharedPreferences preferences = ge
+    }
 
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
@@ -27,21 +40,16 @@ public class GDinService extends Service implements VariableCollection {
 //        Log.d(LOG_TAG_SERVICE, "GDinService - onStartCommand");
 
 
-
         Bundle bundle = intent.getExtras();
         GDinEvent GDinEvent = (GDinEvent) bundle.get(CONST_EVENT);
 
-        if (GDinEvent == GDinEvent.Start){
+        if (GDinEvent == GDinEvent.Start) {
             Log.d(LOG_TAG_SERVICE, "GDinEvent == GDinEvent.Start");
         }
 
         gDin.updateState(intent);
         gDin.setSecurityMode();
         gDin.actionProcess(intent);
-
-
-
-
 
 
         return START_STICKY;
