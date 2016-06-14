@@ -39,6 +39,11 @@ public class GDinService extends Service implements VariableCollection {
         gDin.setSecurityMode();
         gDin.actionProcess(intent);
 
+
+
+
+
+
         return START_STICKY;
     }
 

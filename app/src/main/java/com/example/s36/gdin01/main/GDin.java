@@ -1,14 +1,14 @@
 package com.example.s36.gdin01.main;
 
-import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Message;
 import android.preference.PreferenceManager;
 import android.util.Log;
 
-import com.example.s36.gdin01.R;
 import com.example.s36.gdin01.variable.Event;
 import com.example.s36.gdin01.variable.State;
 import com.example.s36.gdin01.variable.VariableCollection;
@@ -38,6 +38,8 @@ public class GDin implements VariableCollection {
     ArrayList<Long> arrayList = new ArrayList();
     HashSet<State> stateHashSet = new HashSet<>();
 
+    Handler handler;
+
     public GDin(Context context) {
         this.context = context;
         ownerList = new ArrayList<>();
@@ -53,17 +55,34 @@ public class GDin implements VariableCollection {
     }
 
     void updateState(Intent intent) {
+
+
         Bundle bundle = intent.getExtras();
         Event event = (Event) bundle.get(CONST_EVENT);
         if (event == PWROn) {
 
-            stateHashSet.add(State.Start);
+            handler.removeMessages(0); Log.d(LOG_TAG_SERVICE, "handler.removeMessages(0);");
+
             tpmLongStart = tpmLongStart2;
             tpmLongStart2 = new Date().getTime();
         }
         if (event == PWROff) {
 
-            stateHashSet.add(State.Stop);
+
+              handler  =new Handler(){
+                @Override
+                public void handleMessage(Message msg) {
+                   Log.d(LOG_TAG_SERVICE, "handler Alarm" + msg.what);
+                }
+            };
+            Thread t = new Thread(new Runnable() {
+                @Override
+                public void run() {
+                    handler.sendEmptyMessageDelayed(0,1500); Log.d(LOG_TAG_SERVICE, "handler.sendEmptyMessageDelayed(0,1500);");
+                }
+            });
+            t.start();
+
             tpmLongStop = new Date().getTime();
         }
         long tmpDim = tpmLongStart2 - tpmLongStart;
