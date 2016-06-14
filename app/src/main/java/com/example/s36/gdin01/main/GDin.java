@@ -31,6 +31,8 @@ public class GDin implements VariableCollection {
     private ArrayList<String> ownerList;
 
     boolean isEnableSms;
+    boolean isAlarm;
+    boolean isGuard;
 
 
     Long tpmLongStart = 0l;
