@@ -1,28 +1,28 @@
 package com.example.s36.gdin01.main;
 
-import android.content.Context;
-import android.content.Intent;
-import android.content.SharedPreferences;
-import android.os.Bundle;
-import android.os.Handler;
-import android.os.Message;
-import android.preference.PreferenceManager;
-import android.util.Log;
+    import android.content.Context;
+    import android.content.Intent;
+    import android.content.SharedPreferences;
+    import android.os.Bundle;
+    import android.os.Handler;
+    import android.os.Message;
+    import android.preference.PreferenceManager;
+    import android.util.Log;
 
-import com.example.s36.gdin01.variable.Event;
-import com.example.s36.gdin01.variable.State;
-import com.example.s36.gdin01.variable.VariableCollection;
+    import com.example.s36.gdin01.variable.Event;
+    import com.example.s36.gdin01.variable.State;
+    import com.example.s36.gdin01.variable.VariableCollection;
 
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.HashSet;
+    import java.util.ArrayList;
+    import java.util.Date;
+    import java.util.HashSet;
 
-import static com.example.s36.gdin01.variable.Event.PWROff;
-import static com.example.s36.gdin01.variable.Event.PWROn;
+    import static com.example.s36.gdin01.variable.Event.PWROff;
+    import static com.example.s36.gdin01.variable.Event.PWROn;
 
-/**
- * Created by kir on 11.06.2016.
- */
+    /**
+     * Created by kir on 11.06.2016.
+     */
 
 public class GDin implements VariableCollection {
 
