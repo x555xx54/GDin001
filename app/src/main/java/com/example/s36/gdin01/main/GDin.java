@@ -9,16 +9,16 @@ import android.os.Message;
 import android.preference.PreferenceManager;
 import android.util.Log;
 
-import com.example.s36.gdin01.variable.Event;
-import com.example.s36.gdin01.variable.State;
+import com.example.s36.gdin01.variable.GDinEvent;
+import com.example.s36.gdin01.variable.SensorState;
 import com.example.s36.gdin01.variable.VariableCollection;
 
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.HashSet;
 
-import static com.example.s36.gdin01.variable.Event.PWROff;
-import static com.example.s36.gdin01.variable.Event.PWROn;
+import static com.example.s36.gdin01.variable.GDinEvent.PWROff;
+import static com.example.s36.gdin01.variable.GDinEvent.PWROn;
 
 /**
  * Created by kir on 11.06.2016.
@@ -26,7 +26,7 @@ import static com.example.s36.gdin01.variable.Event.PWROn;
 
 public class GDin implements VariableCollection {
 
-    private State gdinState;
+    private SensorState gdinSensorState;
     private Context context;
     private ArrayList<String> ownerList;
 
@@ -40,7 +40,7 @@ public class GDin implements VariableCollection {
     Long tpmLongStart2 = 0l;
 
     ArrayList<Long> arrayList = new ArrayList();
-    HashSet<State> stateHashSet = new HashSet<>();
+    HashSet<SensorState> sensorStateHashSet = new HashSet<>();
 
     Handler handler;
 
@@ -50,20 +50,20 @@ public class GDin implements VariableCollection {
         isEnableSms = false;
     }
 
-    public void setGdinState(State gdinState) {
-        this.gdinState = gdinState;
+    public void setGdinSensorState(SensorState gdinSensorState) {
+        this.gdinSensorState = gdinSensorState;
     }
 
-    public State getGdinState() {
-        return gdinState;
+    public SensorState getGdinSensorState() {
+        return gdinSensorState;
     }
 
     void updateState(Intent intent) {
 
 
         Bundle bundle = intent.getExtras();
-        Event event = (Event) bundle.get(CONST_EVENT);
-        if (event == PWROn) {
+        GDinEvent GDinEvent = (GDinEvent) bundle.get(CONST_EVENT);
+        if (GDinEvent == PWROn) {
 
             handler.removeMessages(0);
             Log.d(LOG_TAG_SERVICE, "handler.removeMessages(0);");
@@ -71,7 +71,7 @@ public class GDin implements VariableCollection {
             tpmLongStart = tpmLongStart2;
             tpmLongStart2 = new Date().getTime();
         }
-        if (event == PWROff) {
+        if (GDinEvent == PWROff) {
 
 
             handler = new Handler() {
@@ -95,21 +95,18 @@ public class GDin implements VariableCollection {
         arrayList.add(tmpDim);
         if ((tmpDim > 1) && (tmpDim) < 1000) {
 
-            stateHashSet.add(State.DoorOpen);
             Log.d(LOG_TAG_SERVICE, "GDinService - onStartCommand - (tpmLongStart2 - tpmLongStart) " + (tmpDim));
         }
         if ((tmpDim > 1000) && (tmpDim < 1500)) {
 
-            stateHashSet.add(State.LockClose);
             Log.d(LOG_TAG_SERVICE, "GDinService - onStartCommand - (tpmLongStart2 - tpmLongStart) " + (tmpDim));
         }
         if ((tmpDim > 1500) && (tmpDim < 2000)) {
 
-            stateHashSet.add(State.LockOpen);
             Log.d(LOG_TAG_SERVICE, "GDinService - onStartCommand - (tpmLongStart2 - tpmLongStart) " + (tmpDim));
         }
 
-        switch (event) {
+        switch (GDinEvent) {
             case SMSIncome:
                 //Log.d(LOG_TAG_SERVICE, "GDinService - onStartCommand -SMSIncome " + count);
 
@@ -131,7 +128,7 @@ public class GDin implements VariableCollection {
 
         SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(context);
 
-        isEnableSms= preferences.getBoolean("chbPrefSmsEnable", false);
+        isEnableSms = preferences.getBoolean("chbPrefSmsEnable", false);
 
         for (int i = 0; i < 10; i++) {
             String owner = preferences.getString("phone" + i, "");
@@ -152,7 +149,7 @@ public class GDin implements VariableCollection {
 
     public void actionProcess(Intent intent) {
         Bundle bundle = intent.getExtras();
-        Event event = (Event) bundle.get(CONST_EVENT);
+        GDinEvent GDinEvent = (GDinEvent) bundle.get(CONST_EVENT);
 
 
     }

@@ -7,7 +7,7 @@ import android.os.IBinder;
 import android.support.annotation.Nullable;
 import android.util.Log;
 
-import com.example.s36.gdin01.variable.Event;
+import com.example.s36.gdin01.variable.GDinEvent;
 import com.example.s36.gdin01.variable.VariableCollection;
 
 /**
@@ -29,10 +29,10 @@ public class GDinService extends Service implements VariableCollection {
 
 
         Bundle bundle = intent.getExtras();
-        Event event = (Event) bundle.get(CONST_EVENT);
+        GDinEvent GDinEvent = (GDinEvent) bundle.get(CONST_EVENT);
 
-        if (event == Event.Start){
-            Log.d(LOG_TAG_SERVICE, "event == Event.Start");
+        if (GDinEvent == GDinEvent.Start){
+            Log.d(LOG_TAG_SERVICE, "GDinEvent == GDinEvent.Start");
         }
 
         gDin.updateState(intent);

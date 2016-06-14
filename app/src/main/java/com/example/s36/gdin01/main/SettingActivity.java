@@ -58,23 +58,21 @@ public class SettingActivity extends PreferenceActivity {
         rootScreen.addPreference(switchPreference);
 
 
-
         PreferenceScreen psOwner = getPreferenceManager().createPreferenceScreen(this);
         psOwner.setTitle("title");
         psOwner.setIcon(R.drawable.user_1_32);
-
 
 
         //SharedPreferences phonePref = getPreferences(MODE_PRIVATE);
         LinkedList<EditTextPreference> etpPhoneLinkedList = new LinkedList<>();
 
         for (int i = 0; i < 10; i++) {
-            EditTextPreference etpPhone =  new EditTextPreference(this);
-            etpPhone.setKey("phone"+i);
+            EditTextPreference etpPhone = new EditTextPreference(this);
+            etpPhone.setKey("phone" + i);
             etpPhone.setIcon(R.drawable.telephone_1_32);
             etpPhone.setDialogTitle("Номер телефона без 8");
             etpPhone.setDialogIcon(R.drawable.telephone_1_32);
-            etpPhone.setTitle(preference.getString("phone"+i, ""));
+            etpPhone.setTitle(preference.getString("phone" + i, ""));
             etpPhone.setOnPreferenceChangeListener(new Preference.OnPreferenceChangeListener() {
                 @Override
                 public boolean onPreferenceChange(Preference preference, Object newValue) {
@@ -88,5 +86,20 @@ public class SettingActivity extends PreferenceActivity {
 
         rootScreen.addPreference(psOwner);
 
+        //// lockSensorScreen
+        PreferenceScreen lockSensorScreen = getPreferenceManager().createPreferenceScreen(this);
+        lockSensorScreen.setTitle("Датчик замка");
+
+        EditTextPreference etpLock = new EditTextPreference(this);
+        etpLock.setKey("etpLock");
+        etpLock.setTitle("Название замка");
+        lockSensorScreen.addPreference(etpLock);
+
+        SwitchPreference swpTypeSensor = new SwitchPreference(this);
+        swpTypeSensor.setKey("swpTypeSensor");
+        swpTypeSensor.setTitle("Нормально открытый");
+        lockSensorScreen.addPreference(swpTypeSensor);
+
+        rootScreen.addPreference(lockSensorScreen);
     }
 }

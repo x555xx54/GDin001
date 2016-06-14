@@ -8,9 +8,9 @@ import android.telephony.SmsMessage;
 import android.util.Log;
 
 import com.example.s36.gdin01.main.GDinService;
-import com.example.s36.gdin01.variable.Category;
-import com.example.s36.gdin01.variable.Event;
-import com.example.s36.gdin01.variable.Origin;
+import com.example.s36.gdin01.variable.GDinCategory;
+import com.example.s36.gdin01.variable.GDinEvent;
+import com.example.s36.gdin01.variable.GDinOrigin;
 import com.example.s36.gdin01.variable.VariableCollection;
 
 import java.util.Date;
@@ -47,11 +47,11 @@ public class SmsReceiver extends UniversalReceiver implements VariableCollection
                 intentT.putExtra(CONST_SMS_TEXT, smsText.toString());
 
 
-                initAndStartService(context,intentT, Category.User, Origin.SMS, Event.SMSIncome, eventTime);
+                initAndStartService(context,intentT, GDinCategory.User, GDinOrigin.SMS, GDinEvent.SMSIncome, eventTime);
                 Log.d(LOG_TAG_RECEIVER_SMS, "SmsReceiver - onReceive");
-//                intentT.putExtra(CONST_CATEGORY, Category.User);
-//                intentT.putExtra(CONST_ORIGIN, Origin.SMS);
-//                intentT.putExtra(CONST_EVENT, Event.SMSIncome);
+//                intentT.putExtra(CONST_CATEGORY, GDinCategory.User);
+//                intentT.putExtra(CONST_ORIGIN, GDinOrigin.SMS);
+//                intentT.putExtra(CONST_EVENT, GDinEvent.SMSIncome);
 //                context.startService(intentT);
             }
         }

@@ -5,9 +5,9 @@ import android.content.Context;
 import android.content.Intent;
 
 
-import com.example.s36.gdin01.variable.Category;
-import com.example.s36.gdin01.variable.Event;
-import com.example.s36.gdin01.variable.Origin;
+import com.example.s36.gdin01.variable.GDinCategory;
+import com.example.s36.gdin01.variable.GDinEvent;
+import com.example.s36.gdin01.variable.GDinOrigin;
 import com.example.s36.gdin01.variable.VariableCollection;
 
 import java.util.Date;
@@ -28,7 +28,7 @@ public class PwrReceiver extends UniversalReceiver implements VariableCollection
 
             Intent intentT = new Intent().setComponent(new ComponentName(context.getPackageName(), CONST_SERVICE_NAME));
 
-            initAndStartService(context, intentT, Category.Sensor, Origin.PWR, Event.PWROn, eventTime);
+            initAndStartService(context, intentT, GDinCategory.Sensor, GDinOrigin.PWR, GDinEvent.PWROn, eventTime);
 
 //            Log.d(LOG_TAG_RECEIVER_PWR, "PwrReceiver - onReceive - ACTION_POWER_CONNECTED");
         }
@@ -37,7 +37,7 @@ public class PwrReceiver extends UniversalReceiver implements VariableCollection
 
             Intent intentT = new Intent().setComponent(new ComponentName(context.getPackageName(), CONST_SERVICE_NAME));
 
-            initAndStartService(context, intentT, Category.Sensor, Origin.PWR, Event.PWROff, eventTime);
+            initAndStartService(context, intentT, GDinCategory.Sensor, GDinOrigin.PWR, GDinEvent.PWROff, eventTime);
 
 //            Log.d(LOG_TAG_RECEIVER_PWR, "PwrReceiver - onReceive - ACTION_POWER_DISCONNECTED");
 
