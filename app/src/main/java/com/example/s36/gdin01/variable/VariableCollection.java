@@ -17,5 +17,6 @@ public interface VariableCollection {
     String LOG_TAG_SERVICE = "mylogserv";
     String LOG_TAG_RECEIVER_PWR = "mylogpwr";
     String LOG_TAG_RECEIVER_SMS = "mylogsms";
+    String LOG_TAG_SENSOR = "mylogsensor";
 
 }

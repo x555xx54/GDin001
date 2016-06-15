@@ -20,7 +20,7 @@ public class GDinService extends Service implements VariableCollection {
     int count = 0;
 
     GDin gDin = new GDin(this);
-    LockSensor lockSensorTop = new LockSensor(, SensorState.Open, "");
+    LockSensor lockSensorTop = new LockSensor(true, SensorState.Open, "TopLock");
 
     @Override
     public void onCreate() {
@@ -29,7 +29,7 @@ public class GDinService extends Service implements VariableCollection {
 
     void readSetting() {
 
-        SharedPreferences preferences = ge
+
     }
 
     @Override

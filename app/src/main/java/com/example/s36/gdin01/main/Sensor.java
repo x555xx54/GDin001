@@ -11,17 +11,24 @@ import com.example.s36.gdin01.variable.SensorState;
 public abstract class Sensor {
 
     boolean isOpen;
+    private SensorState sensorStateLock;
+
 
     void updateState(Intent intent) {
     }
-    void updateSetting(){
+
+    void updateSetting() {
     }
 
     SensorState getState() {
         return SensorState.Open;
     }
 
-    void indicator(){
+    void indicator() {
 
+    }
+
+    interface OnSensorStateChangeListener {
+        public void onSensotStateChange(SensorState sensorStateLock);
     }
 }
