@@ -3,12 +3,39 @@
 
     <item
         is-multidex="true"
+        jar="C:\Users\s36\Downloads\Android\GDin001\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="C:\Users\s36\Downloads\Android\GDin001\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.4.0_c664d02c9043e3252920c2ff4fea3f319d089357\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\SOFT\android-studio\gradle\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.0-alpha2\constraint-layout-solver-1.0.0-alpha2.jar"
         jumboMode="true"
         optimize="false"
         revision="23.0.3"
         sha1="d5b32a2a1529a72472729ee5c94779d0ce9951eb">
         <dex dex="C:\Users\s36\Downloads\Android\GDin001\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.0-alpha2_b198d65d5566a3258fbbd766a5c88d6d4f16cd18\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\s36\Downloads\Android\GDin001\app\build\intermediates\exploded-aar\com.android.support.constraint\constraint-layout\1.0.0-alpha2\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="757a34f5d84a6b77a2bd0ba1affbcd2145329096">
+        <dex dex="C:\Users\s36\Downloads\Android\GDin001\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support.constraint-constraint-layout-1.0.0-alpha2_fbe13c036023dd5681eb03ed8c058cb3236092d4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\s36\Downloads\Android\GDin001\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="C:\Users\s36\Downloads\Android\GDin001\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.4.0_19c60c9c443a9b2f2e80dc97d4906acf7bb4d9f6\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -63,33 +90,6 @@
         revision="23.0.3"
         sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
         <dex dex="C:\Users\s36\Downloads\Android\GDin001\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.4.0_884738d226a787b8e54f40c7551b981df5501ac8\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\s36\Downloads\Android\GDin001\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="false"
-        revision="23.0.3"
-        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
-        <dex dex="C:\Users\s36\Downloads\Android\GDin001\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.4.0_c664d02c9043e3252920c2ff4fea3f319d089357\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\s36\Downloads\Android\GDin001\app\build\intermediates\exploded-aar\com.android.support.constraint\constraint-layout\1.0.0-alpha2\jars\classes.jar"
-        jumboMode="true"
-        optimize="false"
-        revision="23.0.3"
-        sha1="757a34f5d84a6b77a2bd0ba1affbcd2145329096">
-        <dex dex="C:\Users\s36\Downloads\Android\GDin001\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support.constraint-constraint-layout-1.0.0-alpha2_fbe13c036023dd5681eb03ed8c058cb3236092d4\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\s36\Downloads\Android\GDin001\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="false"
-        revision="23.0.3"
-        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
-        <dex dex="C:\Users\s36\Downloads\Android\GDin001\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.4.0_19c60c9c443a9b2f2e80dc97d4906acf7bb4d9f6\classes.dex" />
     </item>
 
 </items>

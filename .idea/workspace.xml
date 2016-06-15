@@ -15,11 +15,15 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/main/GDin.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/main/GDin.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/main/GDinService.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/main/GDinService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/main/LockSensor.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/main/LockSensor.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/main/Sensor.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/main/Sensor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/variable/VariableCollection.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/variable/VariableCollection.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
     </list>
     <list id="63f0112c-f479-4b31-8006-c617b4157494" name="New changelist" comment="" />
     <list id="155ec5e7-920f-488c-8b51-5d8b6c63c1c8" name="New changelist2" comment="" />
@@ -55,21 +59,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GDinService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/main/GDinService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Sensor.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/main/Sensor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+            <state relative-caret-position="697">
+              <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -80,34 +74,19 @@
       <file leaf-file-name="LockSensor.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/main/LockSensor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="59" column="9" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
+            <state relative-caret-position="306">
+              <caret line="34" column="27" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
               <folding>
                 <element signature="docComment;class#LockSensor#0" expanded="false" />
+                <element signature="e#1440#1441#0" expanded="true" />
+                <element signature="e#1488#1489#0" expanded="true" />
+                <element signature="e#1522#1523#0" expanded="true" />
+                <element signature="e#1564#1565#0" expanded="true" />
                 <element signature="method#updateSetting#0;class#LockSensor#0" expanded="false" />
-                <element signature="e#1825#1826#0" expanded="true" />
-                <element signature="e#1863#1864#0" expanded="true" />
+                <element signature="method#indicator#0;class#LockSensor#0" expanded="false" />
+                <element signature="e#2690#2691#0" expanded="true" />
+                <element signature="e#2728#2729#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VariableCollection.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/variable/VariableCollection.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RadioGroup.java" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-23/android/widget/RadioGroup.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="325" column="33" selection-start-line="325" selection-start-column="33" selection-end-line="325" selection-end-column="33" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -1711,11 +1690,11 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/variable/GDinEvent.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/variable/Category.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/variable/GDinCategory.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/main/GDin.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/main/SettingActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/main/Sensor.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/variable/VariableCollection.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/main/GDin.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/main/GDinService.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/main/Sensor.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/main/LockSensor.java" />
       </list>
     </option>
@@ -2233,7 +2212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1465909272877</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="15-06 19-04">
+      <created>1465995849929</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1465995849929</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2248,8 +2234,8 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.58528787" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17803837" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.05010661" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17803837" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942432" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942432" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -2324,7 +2310,8 @@
     <MESSAGE value="14-06 15:00 test isEnableSms" />
     <MESSAGE value="14-06 18:49 SettingActivity add ScreeLock" />
     <MESSAGE value="14-06 19-01" />
-    <option name="LAST_COMMIT_MESSAGE" value="14-06 19-01" />
+    <MESSAGE value="15-06 19-04" />
+    <option name="LAST_COMMIT_MESSAGE" value="15-06 19-04" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -2365,9 +2352,14 @@
           <caret line="54" column="28" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
           <folding>
             <element signature="docComment;class#LockSensor#0" expanded="false" />
+            <element signature="e#1440#1441#0" expanded="true" />
+            <element signature="e#1488#1489#0" expanded="true" />
+            <element signature="e#1522#1523#0" expanded="true" />
+            <element signature="e#1564#1565#0" expanded="true" />
             <element signature="method#updateSetting#0;class#LockSensor#0" expanded="false" />
-            <element signature="e#1825#1826#0" expanded="true" />
-            <element signature="e#1863#1864#0" expanded="true" />
+            <element signature="method#indicator#0;class#LockSensor#0" expanded="false" />
+            <element signature="e#2690#2691#0" expanded="true" />
+            <element signature="e#2728#2729#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2438,9 +2430,14 @@
           <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
           <folding>
             <element signature="docComment;class#LockSensor#0" expanded="false" />
+            <element signature="e#1440#1441#0" expanded="true" />
+            <element signature="e#1488#1489#0" expanded="true" />
+            <element signature="e#1522#1523#0" expanded="true" />
+            <element signature="e#1564#1565#0" expanded="true" />
             <element signature="method#updateSetting#0;class#LockSensor#0" expanded="false" />
-            <element signature="e#1825#1826#0" expanded="true" />
-            <element signature="e#1863#1864#0" expanded="true" />
+            <element signature="method#indicator#0;class#LockSensor#0" expanded="false" />
+            <element signature="e#2690#2691#0" expanded="true" />
+            <element signature="e#2728#2729#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2521,16 +2518,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/main/GDin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/main/SettingActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1462">
@@ -2555,16 +2542,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/main/Sensor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/variable/VariableCollection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -2575,21 +2552,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/main/GDinService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
+        <state relative-caret-position="238">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/main/GDin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-564">
+          <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/main/Sensor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/main/LockSensor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="59" column="9" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
+        <state relative-caret-position="306">
+          <caret line="34" column="27" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
           <folding>
             <element signature="docComment;class#LockSensor#0" expanded="false" />
+            <element signature="e#1440#1441#0" expanded="true" />
+            <element signature="e#1488#1489#0" expanded="true" />
+            <element signature="e#1522#1523#0" expanded="true" />
+            <element signature="e#1564#1565#0" expanded="true" />
             <element signature="method#updateSetting#0;class#LockSensor#0" expanded="false" />
-            <element signature="e#1825#1826#0" expanded="true" />
-            <element signature="e#1863#1864#0" expanded="true" />
+            <element signature="method#indicator#0;class#LockSensor#0" expanded="false" />
+            <element signature="e#2690#2691#0" expanded="true" />
+            <element signature="e#2728#2729#0" expanded="true" />
           </folding>
         </state>
       </provider>

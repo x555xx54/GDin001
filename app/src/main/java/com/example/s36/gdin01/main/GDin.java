@@ -66,7 +66,7 @@ public class GDin implements VariableCollection {
         if (GDinEvent == PWROn) {
 
             handler.removeMessages(0);
-            Log.d(LOG_TAG_SERVICE, "handler.removeMessages(0);");
+//            Log.d(LOG_TAG_SERVICE, "handler.removeMessages(0);");
 
             tpmLongStart = tpmLongStart2;
             tpmLongStart2 = new Date().getTime();
@@ -77,14 +77,14 @@ public class GDin implements VariableCollection {
             handler = new Handler() {
                 @Override
                 public void handleMessage(Message msg) {
-                    Log.d(LOG_TAG_SERVICE, "handler Alarm" + msg.what);
+//                    Log.d(LOG_TAG_SERVICE, "handler Alarm" + msg.what);
                 }
             };
             Thread t = new Thread(new Runnable() {
                 @Override
                 public void run() {
                     handler.sendEmptyMessageDelayed(0, 1500);
-                    Log.d(LOG_TAG_SERVICE, "handler.sendEmptyMessageDelayed(0,1500);");
+//                    Log.d(LOG_TAG_SERVICE, "handler.sendEmptyMessageDelayed(0,1500);");
                 }
             });
             t.start();
@@ -95,15 +95,15 @@ public class GDin implements VariableCollection {
         arrayList.add(tmpDim);
         if ((tmpDim > 1) && (tmpDim) < 1000) {
 
-            Log.d(LOG_TAG_SERVICE, "GDinService - onStartCommand - (tpmLongStart2 - tpmLongStart) " + (tmpDim));
+//            Log.d(LOG_TAG_SERVICE, "GDinService - onStartCommand - (tpmLongStart2 - tpmLongStart) " + (tmpDim));
         }
         if ((tmpDim > 1000) && (tmpDim < 1500)) {
 
-            Log.d(LOG_TAG_SERVICE, "GDinService - onStartCommand - (tpmLongStart2 - tpmLongStart) " + (tmpDim));
+//            Log.d(LOG_TAG_SERVICE, "GDinService - onStartCommand - (tpmLongStart2 - tpmLongStart) " + (tmpDim));
         }
         if ((tmpDim > 1500) && (tmpDim < 2000)) {
 
-            Log.d(LOG_TAG_SERVICE, "GDinService - onStartCommand - (tpmLongStart2 - tpmLongStart) " + (tmpDim));
+//            Log.d(LOG_TAG_SERVICE, "GDinService - onStartCommand - (tpmLongStart2 - tpmLongStart) " + (tmpDim));
         }
 
         switch (GDinEvent) {

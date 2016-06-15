@@ -25,11 +25,12 @@ public class GDinService extends Service implements VariableCollection {
     @Override
     public void onCreate() {
         readSetting();
+
     }
 
+
+
     void readSetting() {
-
-
     }
 
     @Override
@@ -38,6 +39,9 @@ public class GDinService extends Service implements VariableCollection {
             return super.onStartCommand(intent, flags, startId);
         }
 //        Log.d(LOG_TAG_SERVICE, "GDinService - onStartCommand");
+
+
+        lockSensorTop.updateState(intent);
 
 
         Bundle bundle = intent.getExtras();
