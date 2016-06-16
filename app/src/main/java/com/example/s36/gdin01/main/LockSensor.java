@@ -3,18 +3,11 @@ package com.example.s36.gdin01.main;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.View;
-import android.widget.RadioGroup;
+
 
 import com.example.s36.gdin01.variable.GDinEvent;
 import com.example.s36.gdin01.variable.SensorState;
 
-import java.beans.PropertyChangeEvent;
-import java.beans.PropertyChangeListener;
-import java.beans.PropertyChangeSupport;
-
-import static com.example.s36.gdin01.variable.VariableCollection.CONST_EVENT;
-import static com.example.s36.gdin01.variable.VariableCollection.LOG_TAG_SENSOR;
 
 /**
  * Created by s36 on 14.06.2016.
@@ -23,6 +16,8 @@ import static com.example.s36.gdin01.variable.VariableCollection.LOG_TAG_SENSOR;
 public class LockSensor extends Sensor {
 
     private SensorState sensorStateLock;
+    private ObservableSensorState sensorStateLockListenered  ;
+
     private String nameSensor;
     private boolean isNormalOpen;// if pwrOn then lock closed, if pwrOff then lock open //замыкающий при закрытии замка
 
@@ -32,36 +27,41 @@ public class LockSensor extends Sensor {
         this.isNormalOpen = isNormalOpen;
         Log.d(LOG_TAG_SENSOR, this.getClass().getName() + " LockSensor ");
 
-        sensorStateLock.set
+        sensorStateLockListenered = new ObservableSensorState();
+        sensorStateLockListenered.setOnSensorStatChangeListener(new OnSensorStateChangeListener() {
+            @Override
+            public void onSensorStateChange(SensorState newValue) {
+                Log.d(LOG_TAG_SENSOR, " onSensorStateChange " + newValue.toString());
+            }
+        });
     }
 
 
-
-
-
-
-    public interface OnSSListener{
-        public void onSSCange(SensorState sensorState);
+    public interface OnSensorStateChangeListener {
+         void onSensorStateChange(SensorState newValue);
     }
-    public class ObserState{
-        private OnSSListener listener;
-        SensorState sensorState;
-        public void setSensorStateCli(OnSSListener listener){
+
+    public class ObservableSensorState {
+        private OnSensorStateChangeListener listener;
+        private SensorState value;
+
+        public void setOnSensorStatChangeListener(OnSensorStateChangeListener listener) {
             this.listener = listener;
         }
-        public SensorState get(){
-            return sensorState;
+
+        public SensorState get() {
+            return value;
         }
-        public void set(SensorState value){
-            this.sensorState = value;
-            if (listener!=null){
-                listener.onSSCange(value);
+
+        public void set(SensorState value) {
+            this.value = value;
+            if (listener != null) {
+                listener.onSensorStateChange(value);
             }
         }
     }
 
-
-
+    
 
     @Override
     void updateSetting() {
@@ -78,18 +78,22 @@ public class LockSensor extends Sensor {
 
             if (GDinEvent == GDinEvent.PWROn) {
                 sensorStateLock = SensorState.Closed;
+                sensorStateLockListenered.set(SensorState.Closed);
             }
             if (GDinEvent == GDinEvent.PWROff) {
                 sensorStateLock = SensorState.Open;
+                sensorStateLockListenered.set(SensorState.Open);
             }
 
         } else {
 
             if (GDinEvent == GDinEvent.PWROn) {
                 sensorStateLock = SensorState.Open;
+                sensorStateLockListenered.set(SensorState.Open);
             }
             if (GDinEvent == GDinEvent.PWROff) {
                 sensorStateLock = SensorState.Closed;
+                sensorStateLockListenered.set(SensorState.Closed);
             }
         }
         Log.d(LOG_TAG_SENSOR, this.getClass().getName() + " updateState " + sensorStateLock.toString());

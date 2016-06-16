@@ -1,10 +1,6 @@
 package com.example.s36.gdin01.variable;
 
-/**
- * Created by kir on 11.06.2016.
- */
-
-public enum SensorState {
+public enum ObservableSensorState {
     Start,
     Stop,
     Guard,
@@ -12,4 +8,3 @@ public enum SensorState {
     Open,
     Closed
 }
-
