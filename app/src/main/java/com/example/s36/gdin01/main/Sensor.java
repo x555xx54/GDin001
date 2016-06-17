@@ -27,11 +27,9 @@ public abstract class Sensor implements VariableCollection, PropertyChangeListen
     void updateSetting() {
     }
 
-    SensorState getState() {
-        return SensorState.Open;
-    }
 
-    void indicator() {
+    void sendEvent() {
+
     }
 
 

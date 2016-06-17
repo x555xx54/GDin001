@@ -15,20 +15,17 @@ import com.example.s36.gdin01.variable.SensorState;
 
 public class LockSensor extends Sensor {
 
-    private SensorState sensorStateLock;
-    private ObservableSensorState sensorStateLockListenered  ;
+    private ObservableSensorState sensorStateLock;
 
     private String nameSensor;
     private boolean isNormalOpen;// if pwrOn then lock closed, if pwrOff then lock open //замыкающий при закрытии замка
 
-    public LockSensor(boolean isNormalOpen, SensorState sensorStateLock, String nameSensor) {
-        this.sensorStateLock = sensorStateLock;
+    public LockSensor(String nameSensor) {
         this.nameSensor = nameSensor;
-        this.isNormalOpen = isNormalOpen;
         Log.d(LOG_TAG_SENSOR, this.getClass().getName() + " LockSensor ");
 
-        sensorStateLockListenered = new ObservableSensorState();
-        sensorStateLockListenered.setOnSensorStatChangeListener(new OnSensorStateChangeListener() {
+        sensorStateLock = new ObservableSensorState();
+        sensorStateLock.setOnSensorStatChangeListener(new OnSensorStateChangeListener() {
             @Override
             public void onSensorStateChange(SensorState newValue) {
                 Log.d(LOG_TAG_SENSOR, " onSensorStateChange " + newValue.toString());
@@ -38,7 +35,7 @@ public class LockSensor extends Sensor {
 
 
     public interface OnSensorStateChangeListener {
-         void onSensorStateChange(SensorState newValue);
+        void onSensorStateChange(SensorState newValue);
     }
 
     public class ObservableSensorState {
@@ -61,7 +58,6 @@ public class LockSensor extends Sensor {
         }
     }
 
-    
 
     @Override
     void updateSetting() {
@@ -77,26 +73,22 @@ public class LockSensor extends Sensor {
         if (isNormalOpen) {
 
             if (GDinEvent == GDinEvent.PWROn) {
-                sensorStateLock = SensorState.Closed;
-                sensorStateLockListenered.set(SensorState.Closed);
+                sensorStateLock.set(SensorState.Closed);
             }
             if (GDinEvent == GDinEvent.PWROff) {
-                sensorStateLock = SensorState.Open;
-                sensorStateLockListenered.set(SensorState.Open);
+                sensorStateLock.set(SensorState.Open);
             }
 
         } else {
 
             if (GDinEvent == GDinEvent.PWROn) {
-                sensorStateLock = SensorState.Open;
-                sensorStateLockListenered.set(SensorState.Open);
+                sensorStateLock.set(SensorState.Open);
             }
             if (GDinEvent == GDinEvent.PWROff) {
-                sensorStateLock = SensorState.Closed;
-                sensorStateLockListenered.set(SensorState.Closed);
+                sensorStateLock.set(SensorState.Closed);
             }
         }
-        Log.d(LOG_TAG_SENSOR, this.getClass().getName() + " updateState " + sensorStateLock.toString());
+        Log.d(LOG_TAG_SENSOR, this.getClass().getName() + " updateState " + sensorStateLock.get().toString());
     }
 
     @Override
@@ -104,9 +96,6 @@ public class LockSensor extends Sensor {
 
     }
 
-    @Override
-    SensorState getState() {
-        return sensorStateLock;
-    }
+
 
 }

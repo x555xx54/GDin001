@@ -20,14 +20,12 @@ public class GDinService extends Service implements VariableCollection {
     int count = 0;
 
     GDin gDin = new GDin(this);
-    LockSensor lockSensorTop = new LockSensor(true, SensorState.Open, "TopLock");
+    LockSensor lockSensorTop = new LockSensor("TopLock");
 
     @Override
     public void onCreate() {
         readSetting();
-
     }
-
 
 
     void readSetting() {
@@ -39,17 +37,12 @@ public class GDinService extends Service implements VariableCollection {
             return super.onStartCommand(intent, flags, startId);
         }
 //        Log.d(LOG_TAG_SERVICE, "GDinService - onStartCommand");
+        Bundle bundle = intent.getExtras();
+        GDinEvent GDinEvent = (GDinEvent) bundle.get(CONST_EVENT);
 
 
         lockSensorTop.updateState(intent);
 
-
-        Bundle bundle = intent.getExtras();
-        GDinEvent GDinEvent = (GDinEvent) bundle.get(CONST_EVENT);
-
-        if (GDinEvent == GDinEvent.Start) {
-            Log.d(LOG_TAG_SERVICE, "GDinEvent == GDinEvent.Start");
-        }
 
         gDin.updateState(intent);
         gDin.setSecurityMode();
