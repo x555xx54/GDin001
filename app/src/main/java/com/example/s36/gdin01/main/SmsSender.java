@@ -22,7 +22,7 @@ public class SmsSender {
 
     void sendSMS(String number, String msg) {
         //Intent intent = new Intent().setComponent(new ComponentName("com.example.kiril.micvol", "com.example.kiril.micvol.MyService"));
-        Intent intent = new Intent(context, GDinService.class);
+        Intent intent = new Intent(context, ServiceGD.class);
         PendingIntent pi = PendingIntent.getActivity(context, 0, intent, 0);
 
         SmsManager sms = SmsManager.getDefault();
@@ -33,7 +33,7 @@ public class SmsSender {
     }
 
     void sendSMS(ArrayList<String > ownersAL, String msg){
-        Intent intent = new Intent(context, GDinService.class);
+        Intent intent = new Intent(context, ServiceGD.class);
         PendingIntent pi = PendingIntent.getActivity(context, 0, intent, 0);
 
         SmsManager sms = SmsManager.getDefault();

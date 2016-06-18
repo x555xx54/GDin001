@@ -95,20 +95,20 @@ public class GDin implements VariableCollection {
         arrayList.add(tmpDim);
         if ((tmpDim > 1) && (tmpDim) < 1000) {
 
-//            Log.d(LOG_TAG_SERVICE, "GDinService - onStartCommand - (tpmLongStart2 - tpmLongStart) " + (tmpDim));
+//            Log.d(LOG_TAG_SERVICE, "ServiceGD - onStartCommand - (tpmLongStart2 - tpmLongStart) " + (tmpDim));
         }
         if ((tmpDim > 1000) && (tmpDim < 1500)) {
 
-//            Log.d(LOG_TAG_SERVICE, "GDinService - onStartCommand - (tpmLongStart2 - tpmLongStart) " + (tmpDim));
+//            Log.d(LOG_TAG_SERVICE, "ServiceGD - onStartCommand - (tpmLongStart2 - tpmLongStart) " + (tmpDim));
         }
         if ((tmpDim > 1500) && (tmpDim < 2000)) {
 
-//            Log.d(LOG_TAG_SERVICE, "GDinService - onStartCommand - (tpmLongStart2 - tpmLongStart) " + (tmpDim));
+//            Log.d(LOG_TAG_SERVICE, "ServiceGD - onStartCommand - (tpmLongStart2 - tpmLongStart) " + (tmpDim));
         }
 
         switch (GDinEvent) {
             case SMSIncome:
-                //Log.d(LOG_TAG_SERVICE, "GDinService - onStartCommand -SMSIncome " + count);
+                //Log.d(LOG_TAG_SERVICE, "ServiceGD - onStartCommand -SMSIncome " + count);
 
                 for (int i = 0; i < arrayList.size(); i++) {
                     Log.d("myloo", String.valueOf(arrayList.get(i)) + "\n");
@@ -117,7 +117,7 @@ public class GDin implements VariableCollection {
                 break;
             case PWROn:
                 //count++;
-                // Log.d(LOG_TAG_SERVICE, "GDinService - onStartCommand -PWROff " + count);
+                // Log.d(LOG_TAG_SERVICE, "ServiceGD - onStartCommand -PWROff " + count);
                 break;
             case PWROff:
                 break;

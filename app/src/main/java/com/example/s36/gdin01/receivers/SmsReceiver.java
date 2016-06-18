@@ -7,7 +7,7 @@ import android.provider.Telephony;
 import android.telephony.SmsMessage;
 import android.util.Log;
 
-import com.example.s36.gdin01.main.GDinService;
+import com.example.s36.gdin01.main.ServiceGD;
 import com.example.s36.gdin01.variable.GDinCategory;
 import com.example.s36.gdin01.variable.GDinEvent;
 import com.example.s36.gdin01.variable.GDinOrigin;
@@ -42,7 +42,7 @@ public class SmsReceiver extends UniversalReceiver implements VariableCollection
                     smsNumber = smsMessage.getOriginatingAddress();
                     smsText.append(smsMessage.getMessageBody());
                 }
-                Intent intentT = new Intent(context, GDinService.class);
+                Intent intentT = new Intent(context, ServiceGD.class);
                 intentT.putExtra(CONST_NUMBER_PHONE, smsNumber);
                 intentT.putExtra(CONST_SMS_TEXT, smsText.toString());
 

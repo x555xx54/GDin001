@@ -6,10 +6,10 @@ package com.example.s36.gdin01.variable;
 
 public enum GDinEvent {
     SMSIncome,
+    CallIncomStart,
+    CallIncomStop,
     PWROn,
     PWROff,
-    Start,
-    Stop,
     GuardOn,
     GuardOff,
     AlarmOn,

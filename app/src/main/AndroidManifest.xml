@@ -39,7 +39,7 @@
         </activity>
 
         <service
-            android:name="com.example.s36.gdin01.main.GDinService"
+            android:name="com.example.s36.gdin01.main.ServiceGD"
             android:enabled="true"
             android:exported="true"
             android:process=":service">
