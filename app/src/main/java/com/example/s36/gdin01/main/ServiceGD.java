@@ -41,7 +41,10 @@ public class ServiceGD extends Service implements VariableCollection {
         Bundle bundle = intent.getExtras();
         GDinEvent GDinEvent = (GDinEvent) bundle.get(CONST_EVENT);
 
-        sensorTopLock.updateSeting(updateSettingSensorName(), updateSettinEvent());
+        GDinAction gDinAction = (GDinAction) bundle.get(CONST_ACTION);
+        if (gDinAction == GDinAction.UpdateSetting) {
+            sensorTopLock.updateSeting(updateSettingSensorName(), updateSettinEvent());
+        }
         sensorTopLock.updateState(intent);
 
 

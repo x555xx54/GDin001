@@ -8,6 +8,7 @@ public interface VariableCollection {
     String CONST_NUMBER_PHONE = "number_phone";
     String CONST_SMS_TEXT = "sms_text";
     String CONST_EVENT = "event";
+    String CONST_ACTION = "action";
     String CONST_EVENT_TIME = "event_time";
     String CONST_CATEGORY = "category";
     String CONST_ORIGIN = "origin";

@@ -14,6 +14,7 @@ import android.preference.PreferenceScreen;
 import android.preference.SwitchPreference;
 
 import com.example.s36.gdin01.R;
+import com.example.s36.gdin01.variable.GDinAction;
 import com.example.s36.gdin01.variable.VariableCollection;
 
 import java.util.LinkedList;
@@ -162,8 +163,8 @@ public class SettingActivity extends PreferenceActivity implements VariableColle
     protected void onPause() {
         super.onPause();
 
-        Intent intent = new Intent(this, MyService.class);
-        intent.putExtra(CONST_STATUS_CODE, CODE_SETTING_UPDATE);
+        Intent intent = new Intent(this, ServiceGD.class);
+        intent.putExtra(CONST_ACTION, GDinAction.UpdateSetting);
         startService(intent);
     }
 }

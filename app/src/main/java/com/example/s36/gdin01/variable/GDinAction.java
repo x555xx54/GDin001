@@ -7,5 +7,6 @@ public enum GDinAction {
     SendSMSOwner,
     SendSMSOrigin,
     AlarmOn,
-    AlarmOff
+    AlarmOff,
+    UpdateSetting
 }

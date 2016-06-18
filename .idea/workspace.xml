@@ -6,17 +6,11 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="mylog" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06815918-d6d9-46ee-8c3b-46c33a94f844" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/android_android_23.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/main/SensorGD.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/main/ServiceGD.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/variable/GDinAction.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/main/GDinService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/main/LockSensor.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" />
@@ -24,29 +18,16 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/animated_vector_drawable_23_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/animated_vector_drawable_23_4_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_23_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_23_4_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/espresso_core_2_2_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/espresso_core_2_2_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/espresso_idling_resource_2_2_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/espresso_idling_resource_2_2_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/exposed_instrumentation_api_publish_0_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/exposed_instrumentation_api_publish_0_5.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/rules_0_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/rules_0_5.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/runner_0_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/runner_0_5.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_annotations_23_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_annotations_23_4_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_23_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_23_4_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_vector_drawable_23_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_vector_drawable_23_4_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/main/GDin.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/main/GDin.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/main/SensorGD.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/main/SensorGD.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/main/ServiceGD.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/main/ServiceGD.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/main/SettingActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/main/SettingActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/main/SmsSender.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/main/SmsSender.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/receivers/SmsReceiver.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/receivers/SmsReceiver.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/variable/GDinEvent.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/variable/GDinEvent.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/variable/GDinAction.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/variable/GDinAction.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/variable/VariableCollection.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/variable/VariableCollection.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
     </list>
     <list id="63f0112c-f479-4b31-8006-c617b4157494" name="New changelist" comment="" />
     <list id="155ec5e7-920f-488c-8b51-5d8b6c63c1c8" name="New changelist2" comment="" />
@@ -85,8 +66,8 @@
       <file leaf-file-name="ServiceGD.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/main/ServiceGD.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="43" column="81" selection-start-line="43" selection-start-column="81" selection-end-line="43" selection-end-column="81" />
+            <state relative-caret-position="97">
+              <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#updateSettinEvent#0;class#ServiceGD#0" expanded="false" />
@@ -96,19 +77,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SensorGD.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="457">
+              <caret line="63" column="11" selection-start-line="63" selection-start-column="11" selection-end-line="63" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-manifest">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SensorGD.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/main/SensorGD.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="72" column="78" selection-start-line="72" selection-start-column="78" selection-end-line="72" selection-end-column="78" />
+            <state relative-caret-position="97">
+              <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
               <folding>
-                <element signature="method#updateState#0;class#SensorGD#0" expanded="false" />
-                <element signature="e#1534#1563#0" expanded="false" />
+                <element signature="e#1589#1618#0" expanded="false" />
                 <element signature="method#updateSeting#0;class#SensorGD#0" expanded="false" />
                 <element signature="class#OnSensorStateChangeListener#0;class#SensorGD#0" expanded="false" />
                 <element signature="class#ObservableSensorState#0;class#SensorGD#0" expanded="false" />
-                <element signature="e#2850#2851#0" expanded="true" />
-                <element signature="e#2886#2887#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -117,21 +108,38 @@
       <file leaf-file-name="SettingActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/main/SettingActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2">
-              <caret line="138" column="20" selection-start-line="138" selection-start-column="20" selection-end-line="138" selection-end-column="53" />
-              <folding>
-                <element signature="e#4166#4435#0" expanded="true" />
-                <element signature="e#4434#4435#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="254">
+              <caret line="166" column="62" selection-start-line="166" selection-start-column="62" selection-end-line="166" selection-end-column="62" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="VariableCollection.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GDinEvent.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/variable/GDinEvent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="21" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GDinAction.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/variable/GDinAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VariableCollection.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/variable/VariableCollection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="87" selection-start-line="30" selection-start-column="87" selection-end-line="30" selection-end-column="87" />
+            <state relative-caret-position="119">
+              <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -1801,13 +1809,14 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/main/LockSensor.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/variable/GDinEvent.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/main/GDinAction.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/variable/GDinAction.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/variable/VariableCollection.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/main/GDinSensor.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/main/GDinService.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/main/SensorGD.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/main/ServiceGD.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/variable/VariableCollection.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/variable/GDinAction.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/main/SettingActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/main/ServiceGD.java" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/main/SensorGD.java" />
       </list>
     </option>
   </component>
@@ -1940,17 +1949,31 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GDin001" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="manifests" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidManifestsGroupNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="ProjectPane" />
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="device.picker.selection" value="Nexus_S_API_23" />
+    <property name="device.picker.selection" value="0123456789ABCDEF" />
     <property name="last_opened_file_path" value="$USER_HOME$/AndroidStudioProjects/TestAsynkTask" />
     <property name="android.project.structure.last.selected" value="Project" />
     <property name="android.project.structure.proportion" value="0.15" />
@@ -2359,37 +2382,43 @@
       <option name="project" value="LOCAL" />
       <updated>1466083157831</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="18-06">
+      <created>1466259473886</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1466259473886</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="1" width="1302" height="766" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11380282" sideWeight="0.5055644" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2747604" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25692964" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25657895" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11380282" sideWeight="0.5055644" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2713816" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.47203946" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17697228" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942432" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2673108" sideWeight="0.4944356" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22624798" sideWeight="0.4944356" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11380282" sideWeight="0.5055644" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -2397,6 +2426,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -2453,33 +2483,23 @@
     <MESSAGE value="15-06 19-04" />
     <MESSAGE value="15-06 22-27" />
     <MESSAGE value="variable listener" />
-    <option name="LAST_COMMIT_MESSAGE" value="variable listener" />
+    <MESSAGE value="18-06" />
+    <option name="LAST_COMMIT_MESSAGE" value="18-06" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/main/Sensor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/main/SensorGD.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="method#updateState#0;class#SensorGD#0" expanded="false" />
-            <element signature="e#1534#1563#0" expanded="false" />
+            <element signature="e#1589#1618#0" expanded="false" />
             <element signature="method#updateSeting#0;class#SensorGD#0" expanded="false" />
             <element signature="class#OnSensorStateChangeListener#0;class#SensorGD#0" expanded="false" />
             <element signature="class#ObservableSensorState#0;class#SensorGD#0" expanded="false" />
-            <element signature="e#2850#2851#0" expanded="true" />
-            <element signature="e#2886#2887#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2488,7 +2508,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="18" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2513,13 +2532,10 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="method#updateState#0;class#SensorGD#0" expanded="false" />
-            <element signature="e#1534#1563#0" expanded="false" />
+            <element signature="e#1589#1618#0" expanded="false" />
             <element signature="method#updateSeting#0;class#SensorGD#0" expanded="false" />
             <element signature="class#OnSensorStateChangeListener#0;class#SensorGD#0" expanded="false" />
             <element signature="class#ObservableSensorState#0;class#SensorGD#0" expanded="false" />
-            <element signature="e#2850#2851#0" expanded="true" />
-            <element signature="e#2886#2887#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2528,7 +2544,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="18" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2553,13 +2568,10 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="method#updateState#0;class#SensorGD#0" expanded="false" />
-            <element signature="e#1534#1563#0" expanded="false" />
+            <element signature="e#1589#1618#0" expanded="false" />
             <element signature="method#updateSeting#0;class#SensorGD#0" expanded="false" />
             <element signature="class#OnSensorStateChangeListener#0;class#SensorGD#0" expanded="false" />
             <element signature="class#ObservableSensorState#0;class#SensorGD#0" expanded="false" />
-            <element signature="e#2850#2851#0" expanded="true" />
-            <element signature="e#2886#2887#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2568,7 +2580,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2593,13 +2604,10 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="method#updateState#0;class#SensorGD#0" expanded="false" />
-            <element signature="e#1534#1563#0" expanded="false" />
+            <element signature="e#1589#1618#0" expanded="false" />
             <element signature="method#updateSeting#0;class#SensorGD#0" expanded="false" />
             <element signature="class#OnSensorStateChangeListener#0;class#SensorGD#0" expanded="false" />
             <element signature="class#ObservableSensorState#0;class#SensorGD#0" expanded="false" />
-            <element signature="e#2850#2851#0" expanded="true" />
-            <element signature="e#2886#2887#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2626,7 +2634,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#updateSettinEvent#0;class#ServiceGD#0" expanded="false" />
+            <element signature="method#updateSettingSensorName#0;class#ServiceGD#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2635,13 +2647,10 @@
         <state relative-caret-position="816">
           <caret line="54" column="28" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
           <folding>
-            <element signature="method#updateState#0;class#SensorGD#0" expanded="false" />
-            <element signature="e#1534#1563#0" expanded="false" />
+            <element signature="e#1589#1618#0" expanded="false" />
             <element signature="method#updateSeting#0;class#SensorGD#0" expanded="false" />
             <element signature="class#OnSensorStateChangeListener#0;class#SensorGD#0" expanded="false" />
             <element signature="class#ObservableSensorState#0;class#SensorGD#0" expanded="false" />
-            <element signature="e#2850#2851#0" expanded="true" />
-            <element signature="e#2886#2887#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2657,7 +2666,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2697,7 +2705,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="31" column="58" selection-start-line="31" selection-start-column="58" selection-end-line="31" selection-end-column="58" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#updateSettinEvent#0;class#ServiceGD#0" expanded="false" />
+            <element signature="method#updateSettingSensorName#0;class#ServiceGD#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2706,13 +2718,10 @@
         <state relative-caret-position="612">
           <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
           <folding>
-            <element signature="method#updateState#0;class#SensorGD#0" expanded="false" />
-            <element signature="e#1534#1563#0" expanded="false" />
+            <element signature="e#1589#1618#0" expanded="false" />
             <element signature="method#updateSeting#0;class#SensorGD#0" expanded="false" />
             <element signature="class#OnSensorStateChangeListener#0;class#SensorGD#0" expanded="false" />
             <element signature="class#ObservableSensorState#0;class#SensorGD#0" expanded="false" />
-            <element signature="e#2850#2851#0" expanded="true" />
-            <element signature="e#2886#2887#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2721,7 +2730,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2753,7 +2761,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="31" column="46" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#updateSettinEvent#0;class#ServiceGD#0" expanded="false" />
+            <element signature="method#updateSettingSensorName#0;class#ServiceGD#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2793,7 +2805,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2801,7 +2812,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2816,7 +2826,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2834,7 +2843,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="3" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2858,10 +2866,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="193">
           <caret line="72" column="11" selection-start-line="72" selection-start-column="11" selection-end-line="72" selection-end-column="11" />
-          <folding>
-            <element signature="e#2818#2819#0" expanded="false" />
-            <element signature="e#2853#2854#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2869,14 +2873,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-340">
           <caret line="34" column="20" selection-start-line="32" selection-start-column="3" selection-end-line="34" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/variable/GDinAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
           <folding />
         </state>
       </provider>
@@ -2889,26 +2885,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/main/SensorGD.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/variable/VariableCollection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="72" column="78" selection-start-line="72" selection-start-column="78" selection-end-line="72" selection-end-column="78" />
-          <folding>
-            <element signature="method#updateState#0;class#SensorGD#0" expanded="false" />
-            <element signature="e#1534#1563#0" expanded="false" />
-            <element signature="method#updateSeting#0;class#SensorGD#0" expanded="false" />
-            <element signature="class#OnSensorStateChangeListener#0;class#SensorGD#0" expanded="false" />
-            <element signature="class#ObservableSensorState#0;class#SensorGD#0" expanded="false" />
-            <element signature="e#2850#2851#0" expanded="true" />
-            <element signature="e#2886#2887#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="119">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+          <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/variable/GDinAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/main/SettingActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="166" column="62" selection-start-line="166" selection-start-column="62" selection-end-line="166" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="63" column="11" selection-start-line="63" selection-start-column="11" selection-end-line="63" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/main/ServiceGD.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="43" column="81" selection-start-line="43" selection-start-column="81" selection-end-line="43" selection-end-column="81" />
+        <state relative-caret-position="97">
+          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#updateSettinEvent#0;class#ServiceGD#0" expanded="false" />
@@ -2917,22 +2932,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/main/SettingActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/main/SensorGD.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2">
-          <caret line="138" column="20" selection-start-line="138" selection-start-column="20" selection-end-line="138" selection-end-column="53" />
+        <state relative-caret-position="97">
+          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
           <folding>
-            <element signature="e#4166#4435#0" expanded="true" />
-            <element signature="e#4434#4435#0" expanded="true" />
+            <element signature="e#1589#1618#0" expanded="false" />
+            <element signature="method#updateSeting#0;class#SensorGD#0" expanded="false" />
+            <element signature="class#OnSensorStateChangeListener#0;class#SensorGD#0" expanded="false" />
+            <element signature="class#ObservableSensorState#0;class#SensorGD#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/s36/gdin01/variable/VariableCollection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="87" selection-start-line="30" selection-start-column="87" selection-end-line="30" selection-end-column="87" />
-          <folding />
         </state>
       </provider>
     </entry>

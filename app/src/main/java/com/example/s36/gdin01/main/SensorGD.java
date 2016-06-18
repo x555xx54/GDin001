@@ -45,7 +45,8 @@ public class SensorGD implements VariableCollection {
         GDinEvent gdinEvent = (GDinEvent) bundle.get(CONST_EVENT);
 
         switch (gdinEvent) {
-            case PWROn:
+            case PWROn: Log.d(LOG_TAG_SENSOR, "swich");
+                break;
         }
 
 //        if (isNormalOpen) {
